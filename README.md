@@ -4,10 +4,10 @@
 
 This project investigates the formation of singularities in nonlinear partial differential equations using the inviscid Burgers' equation:
 
-\[
+$$
 \frac{\partial u}{\partial t}
 +u\frac{\partial u}{\partial x}=0.
-\]
+$$
 
 The project explores how numerical methods can capture the steepening of solution gradients as a shock forms in finite time. Several numerical approaches are implemented in Python and compared to investigate their accuracy, convergence and ability to resolve the solution close to singularity formation.
 
